@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='Assets/CSS_Files/styling.css'>
+    <link rel='stylesheet' href='Assets/CSS_Files/projects_page_styling.css'>
+    <title>Brady Baldwin</title>
+  </head>
+  <body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="Assets/JS_Files/main.js"></script>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='projNavMain'>
+        <div class="container-fluid" id='topNavProj'> 
+          <a class="navbar-brand" href="#">Brady Baldwin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projects_page.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Assets/Images/Brady_Baldwin_Resume_9_10_2020.pdf" target="_blank">Resume</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Selected Work Header -->
+    <div class="projHeadMove">
+    <div class='container'>
+        <div class="row">
+            <div class="col">
+            <h5 id='selWork' >Selected Work</h5>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- The three main featured projects -->
+    <div class='projMainMove'>
+    <div class='container' style='margin-bottom: 100px;'>
+        <div class='row'>
+            <div class='col-lg-8' id='projImg1'>
+                <div class='test'>
+                    <a href='Educational_VR_page.html'>
+                        <button type="button" class="btn btn-light btn-lg" id='projBtn1'>View Project</button>
+                    </a>
+                </div>
+            </div>
+            <div class='col-lg-4' id='projDesc1'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col' id=projTitle1>Educational VR Experience</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' id='projSum1'>I worked with a team of four students to 
+                            demonstrate the way that machine vision can experience sight 
+                            line obstruction from objects superseding others in the 
+                            field of view. We used a combination of 
+                            coding and animation to complete this process, working in 
+                            Autodesk Maya to model all of the assets in the project and 
+                            assembling them in Unity.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class='projMainMove2'>
+    <div class='container' style='margin-bottom: 100px;'>
+        <div class='row'>
+            <div class='col-lg-8' id='projImg2'>
+                <div class='test'>
+                    <button type="button" class="btn btn-light btn-lg" id='projBtn2'>View Project</button>
+                </div>
+            </div>
+            <div class='col-lg-4' id='projDesc2'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col' id=projTitle2>CARVE Lab Model</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' id='projSum2'>This  lab model was needed for
+                             an upcoming evacuation simulation study. It was created 
+                             to scale, with many minor details mirroring the actual 
+                             lab as the results from VR trials were to be compared 
+                             to results from real world trials. The study is currently 
+                             ongoing and uses the lab model continually, and other
+                              studies plan on using the model in the future.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class='projMainMove3'>
+    <div class='container' style='margin-bottom: 100px;'>
+        <div class='row'>
+            <div class='col-lg-8' id='projImg3'>
+                <div class='test'>
+                    <button type="button" class="btn btn-light btn-lg" id='projBtn3'>View Project</button>
+                </div>
+            </div>
+            <div class='col-lg-4' id='projDesc3'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col' id=projTitle3>User Research for Local Theater</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' id='projSum3'>Term-long research project 
+                            conducted for a course at CMU with a small team. 
+                            Focused on increasing donations for the Kelly-Strayhorn
+                            Theater in Pittsburgh. We worked to identify user needs
+                            through a variety of methods and prortyped an innovative
+                            digital membership solution for the theater.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- bottom container with two smaller, non-featured projects -->
+    <div class='projSubMove'>
+    <div class='container' style="padding: 0;">
+        <div class='row'>
+            <div class='col-md'>
+                <div class='container' style="margin: 0;">
+                    <div class='row'>
+                        <div class='col' id='bottomName1'>
+                             World Building Unity Project
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' id='bottom1'>
+                            <div class='bottomMargin'>
+                                <button type="button" class="btn btn-light btn-lg" id='bottomBtn1'>View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md'>
+                <div class='container' style="margin: 0;">
+                    <div class='row'>
+                        <div class='col' id='bottomName2'>
+                            Fake News Detection Game
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' id='bottom2'>
+                            <div class='bottomMargin'>
+                                <button type="button" class="btn btn-light btn-lg" id='bottomBtn2'>View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <div class='container-fluid' style="background-color: black;   padding-top: 20px; color: grey;">
+        <div class='row'>
+            <div class='col'></div>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                                <img onclick='showMail()' id='mailButton' class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/gmail.png'>
+                            <a href="https://www.facebook.com/brady.baldwin.50" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/facebook.png'>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brady-baldwin/" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/LinkedIn.png'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class='row'>
+            <div>Created by Brady Baldwin, 2020</div>
+        </div>
+    </div>
+  </body>
+</html>
