@@ -54,7 +54,7 @@
 
 /* featured project 2 styles */
 #projImg2 {
-    background-image: url(Images_copy/Psych_Lab_Image_1.jpg);
+    background-image: url(Images_copy/fn_proto_screen.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,8 @@
 
 /* bottom project styles */
 #bottom1{
-    background-image: url(Images_copy/Baldwin_Brady-Poster-small.JPG);
+    background-image: url(Images_copy/sub_screens_ovrview.png);
+    filter: saturate(50%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +125,7 @@
 }
 
 #bottom2{
-    background-image: url(Images_copy/pd_afinity.JPG);
+    background-image: url(Images_copy/Psych_Lab_Image_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

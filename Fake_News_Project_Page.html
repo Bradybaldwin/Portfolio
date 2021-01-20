@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='Assets/CSS_Files/styling.css'>
+    <link rel='stylesheet' href='Assets/CSS_Files/Fake_News_Styling.css'>
+    <title>Brady Baldwin</title>
+  </head>
+  <body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="Assets/JS_Files/main.js"></script>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='FNNavMain'>
+        <div class="container-fluid" id='topNavFN'> 
+          <a class="navbar-brand" href="#">Brady Baldwin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projects_page.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Assets/Images/Brady_Baldwin_Resume_9_10_2020.pdf" target="_blank">Resume</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- page progress bar -->
+    <div class='progBarBG'>
+        <div class='progBar' id='thisBar'></div>
+    </div>
+
+    <!-- page title and blurb -->
+    <div class='container-fluid' id='FNHeadBG'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class='container' id='FNHeadsub'>
+                        <div class="row">
+                            <div class="col">
+                                <h4 id='FNTitle'>Ghost Hunters</h4>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col">
+                                <p id='FNSum' >A Persuasive Intervention in the form of a social detection game targeted at younger social media-active 
+                                    adults to develop critical thinking skills and improve their ability 
+                                    to recognize fake news.
+                                </social-media></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class='container'>
+                        <div class="row">
+                            <div class="col">
+                                <img id='FNGreybox1' src="Assets/Images/zuzu.png" class='img-fluid'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overview header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='FNHeadings' id='FNOvrAnim'>Overview</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project goals container -->
+    <div class='container'  id='FNProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Project Goals</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='FNSubBorderBlank'>
+                <div></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='FNSubDesc'>
+                In September 2019, I participated in a collaborative VR project 
+                with students and faculty from Oregon State University and Stuttgart
+                Media University. This was an educational project designed to raise 
+                public awareness of the strengths and weakness of robotic sensors. 
+                We had to complete the project within a ten-week academic term.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collaboration container -->
+    <div class='container' id='FNcollabContAnim'>
+        <div class='row'>
+            <div class='col-md-8' id='FNCollab'>
+                Collaboration
+            </div>
+            <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='FNCollabDesc'>
+                We worked closely with the students from Stuttgart HdM to 
+                develop concepts that would help transofrm our educational 
+                goals into a fully-realized palyable experience. In addition to 
+                a weeklong in-person brainstorming session, we worked with these 
+                students remotely to ideate our design and share feedback. 
+                Within our own groups teams worked together to divide the work 
+                among our experitise. My main contributions were in detial 
+                modeling using Autodesk Maya and prototyping code in Unity.
+            </div>
+            <div class='col-md-7'>
+                <img src='Assets/Images/HbM_Logo.png' alt='Stuttgart HdM logo' class=img-fluid' id='FNCollabImg'>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brainstorming header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='FNHeadings'>Brainstorm</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Initial planning container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Initial Planning</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubBorder'><img src='Assets/Images/Noctis-Evadere-crop.png' class='brainstormImgFN'></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='FNSubDesc'>
+                    During our weeklong brainstorming session with the German design students our group decided on creating an atmospheric, haunted museum VR experience. We thought that putting players in a dark environment where they would lose the sense of sight would be a perfect way to showcase how robotic sight functions using lidar. We decided on giving the user a ‘flashlight’ that projected a matrix of dots and outlined objects in the field of view, much like how robotic sensors on automated vehicles work.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- expert feedback container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Expert Feedback</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubBorder'><img src='Assets/Images/car_sensor.png' class='brainstormImgFN'></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='FNSubDesc'>
+                    After deciding on a concept our group met with several Oregon State robotics professors to get expert opinions and information on the current state of robotic sensors. The professors surprised us by explaining that robotic sensors are inherently poor at object detection and that many people overestimate a sensor’s ability to interpret its surroundings. They explained how machine learning techniques for recognizing objects within images are often fooled when presented with an image that differs from the dataset they were trained on. Furthermore they described limitations in lidar technology by showing how beams from the sensors can be blocked by closer objects in the field of view, which can potentially lead to unexpected objects appearing as the sensor moves through space.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final decisions container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-12' id='FNProjGoals'>
+                <div class='FNSubHead'>Final Decisions</div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-12'>
+                <div class= 'FNSubBorder'>
+
+                    <!-- Bootstrap accordion - lists 3 final decisions -->
+                    <div class='container'>
+                        <div class="accordion" id="decisionsAccordion">
+                            <div class="accordion-item" id='decisionsSeg1'>
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id='decisions1'>
+                                    Decision 1: Show the shortcomings of robotic sensors
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#decisionsAccordion">
+                                <div class="accordion-body">
+                                    It was clear that many people lacked an understanding of the limitations that robotic sensors have. WIth an increase in self-driving functionality in cars among other implementations, there is real danger in over-relying on machine vision. We decided to make a game that demonstrated how certain situations can confuse sensors and make navigation uncertain
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item" id='decisionsSeg2'>
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id='decisions2'>
+                                    Decision 2: Force users to rely on sensors
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#decisionsAccordion">
+                                <div class="accordion-body">
+                                    Robots cannot perform object detection and navigation tasks as well as humans because they simply do not have the reasoning ability of humans. If we just gave players the robotic sensor to use on top of their own vision, they would opt to use their own vision every time as it is inherently better and they can immediately understand what they are seeing. However, by utilizing the immersive nature of virtual reality, we can deprive the users of their vision in certain scenarios to force their reliance on robotic sensors as they navigate through a space. 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item" id='decisionsSeg3'>
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id='decisions3'>
+                                    Decision 3: A Haunted Museum
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#decisionsAccordion">
+                                <div class="accordion-body">
+                                    To combine these ideas into a game that is fun and immersive we decided that the player must try to escape a haunted museum. We would implement the idea of object detection failure in cameras via a security room that players must walk through and look at to find an escape route. We then would implement vision via the infrared array in a pitch black room full of terracotta soldiers. These soldiers were arranged so that they formed a maze, and the player would have to rely on the sensor to navigate their way through.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Design process header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='FNHeadings' id='FNDesignAnim'>Design Process</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Greyboxing container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Autodesk Maya: Greyboxing</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='FNSubBorder'>
+            <div class='row'>
+                <div class='col-md-7'>
+                    <div class='FNSubDesc'>
+                        We began the modeling process by greyboxing the play space in Autodesk Maya. The group split up which sections of the museum they would design and then combined our rooms in a master file so that they would all connect. I led the design of the overall layout and path that the player would take as they travelled the museum.
+                    </div>
+                </div>
+                <div class='col-md-5'>
+                    <img src='Assets/Images/greybox.png' alt='greybox museum model' class="d-none d-xl-block" id='oversizedImgFN'>
+                    <img src='Assets/Images/greybox.png' alt='greybox museum model' class="d-xl-none" id='inlineGBFN'>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modeling container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-8'>
+                <div class='FNSubHead'>Autodesk Maya: Modeling and Lighting</div>
+            </div>
+                <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='container' id='FNModelingImgBorder'>
+                    <div class='row'>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/axe_ref.png' alt='reference image of axe' class='modelingImgFN'>
+                            <figcaption class='modelingCap'>
+                                Model Reference
+                            </figcaption>
+                        </div>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/axe_grey.JPG' alt='model of axe' class='modelingImgFN'>
+                            <figcaption class='modelingCap'>
+                                Basic Shape
+                            </figcaption>
+                        </div>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/Axe_in_case.JPG' alt='model of axe in room' class='modelingImgFN'>
+                            <figcaption class='modelingCap'>
+                                In Scene
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-top: 40px; padding-bottom: 40px'>
+                            <div class='FNSubDesc'>
+                                I modeled many assets for the final design of the project including the entirety of the ‘medieval room’ as well as many artifacts, containers, display cases and other props throughout the museum. I began by finding reference images to use as I modeled so that my assets would be more realistic. After creating an initial shape, I would refine the model by adding vertices and sculpting. Finally, I would place individual assets within the larger scene. In addition to modeling I created many textures and UV maps for our assets. The group exported our models into Unity where we created lighting effects and sound effects to make the space more immersive.
+                            </div>
+                        </div>
+                    </div>
+                    <div class=row>
+                        <div class=col>
+                            <!-- Bootstrap Carousel of Unity screenshots -->
+                            <div id="FNUnityCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="Assets/Images/unity1.JPG" class="d-block w-100" alt="Lighting in unity">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Assets/Images/unity2.JPG" class="d-block w-100" alt="More lighting in unity">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#FNUnityCarousel" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#FNUnityCarousel" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='FNSubDesc' style='text-align: center;'>
+                                Adding Light in Unity
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interaction container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Unity: Interaction</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubBorder'><img src="Assets/Images/robotic_sensor_tool.JPG" alt="The robotic sensor, resembling a flashlight"  class='brainstormImgFN'></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='FNSubDesc'>
+                    To make the model playable in VR our team used the VRTK Unity plugin for Oculus Rift. We spent weeks troubleshooting the game, optimizing it for framerate, making many elements intractable including containers and light switches,  and creating physics boundaries to restrict teleportation movement. One key focus here was the robotic sensor tool. With the help of a professor we were able to integrate code for this tool that allowed it to project a dot matrix into the environment, simulating robotic vision.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- final product header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='FNHeadings'>Final Product</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container with embedded video from google drive and description -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col'>
+                <iframe src="https://drive.google.com/file/d/1T7iGVaevVXY7mqTM5EmwRnPiZ1fgjubJ/preview" width="90%" height="600px" style="padding-top: 40px;"></iframe>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='FNSubDesc' style='padding-top: 40px;'>
+                    Our group presented our final product in an end-of the-term showcase as well as via video conference with the German design students. The experience was fully playable and overall was easy to pick up and use on the oculus rift. With more time our group would have loved to explore the object recognition concept more, as the current state of the security monitors does not allow for interaction.
+                <br>
+                <br>
+                <a href='https://drive.google.com/drive/folders/1Ldqs_b-b_7tTgGR7CNAS8SPiEnZrKRGZ?usp=sharing'>Link to the playable project</a> (requires oculus rift to work properly)
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- Takeaways container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Takeaways</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' style="margin-bottom: 150px;">
+                <div class='FNSubBorder'><img src='Assets/Images/ascendent_thermal_optical_secuirty_ptz_camera-500.png' class='brainstormImgFN'></div>
+            </div>
+            <div class='col-md-7'>
+                <!-- Bootstrap accordion with three main takeaways -->
+                <div class="accordion" id="taAccordion">
+                    <div class="accordion-item" id='taSeg1'>
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id='ta1'>
+                            Balancing fun and education
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#taAccordion">
+                        <div class="accordion-body">
+                            Our group struggled most with creating an immersive VR experience that could teach complex concepts like the limitations of machine vision while still being fun for the average user to pick up and play. Ultimately I feel like we could have done a more thorough job of explaining how the robotic sensor worked, but we were pleased with the playability of our project.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item" id='taSeg2'>
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id='ta2'>
+                            Group dynamics
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#taAccordion">
+                        <div class="accordion-body">
+                            This was the first project of  this scope that I had ever worked on with a group. Everything had to be coordinated perfectly so that our models matched both in scale and in style. If any one member was out of sync the entire project was at risk of failure as we only had 10 weeks to complete it. I learned valuable skills in time management, solving issues with group dynamics, and adapting my style of design to work with the vision of others.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item" id='taSeg3' style='margin-bottom: 40px;'>
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id='ta3'>
+                            Building design skills
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#taAccordion">
+                        <div class="accordion-body">
+                            So much planning, prototyping and iteration went into making this project both functionally and aesthetically effective. Before this project i had done some graphic and 3D design work but I did not fully appreciate the iterative method as a tool for refinement. I also gained a ton of practical skill in a wide variety of applications, from Maya to Unity to Adobe software like premiere pro and photoshop.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='container-fluid' style="background-color: black;   padding-top: 20px; color: grey;">
+        <div class='row'>
+            <div class='col'></div>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                                <img onclick='showMail()' id='mailButton' class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/gmail.png'>
+                            <a href="https://www.facebook.com/brady.baldwin.50" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/facebook.png'>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brady-baldwin/" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/LinkedIn.png'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class='row'>
+            <div>Created by Brady Baldwin, 2020</div>
+        </div>
+    </div>
+  </body>
+</html>

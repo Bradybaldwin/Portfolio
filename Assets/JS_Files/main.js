@@ -50,70 +50,22 @@ document.addEventListener("DOMContentLoaded", function(){
                 trigger: '.projSubMove',
             }});
         tl.addLabel("projSubMove")
-            .from('.projSubMove', {y:200, opacity: 0, duration: 1.5})
-            .to('.projSubMove', {y:0, opacity: 100, duration: 1.5})
+            .from('.projSubMove', {y:200, opacity: 0, duration: .7})
+            .to('.projSubMove', {y:0, opacity: 100, duration: .7})
 
 //VR Project Detail Page Scrolling animations//
-        var tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#brainstormAnim',
-            }});
-        tl.addLabel("brainstormAnim")
-            .from("#brainstormAnim", {x: 100, opacity:0, duration: 1})
-            .from('#initPlanAnim', {y:50, opacity:0, duration: .5})
-            .from('#expertAnim', {y:50, opacity:0, duration: .5})
-                        
-        var tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#vrFinalDAnim',
-            }});
-        tl.addLabel("vrFinalDAnim")
-            .from("#vrFinalDAnim", {y: 100, opacity:0, duration: 1})
-
-        var tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#vrDesignAnim',
-            }});
-        tl.addLabel("vrDesignAnim")
-            .from("#vrDesignAnim", {x: 100, opacity:0, duration: 1})
-            .from('#vrGreyAnim', {y:50, opacity:0, duration: .5})
-            .from('#vrModelingAnim', {y:50, opacity:0, duration: .5})
-    
-        var tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#vrUnityAnim',
-            }});
-        tl.addLabel("vrUnityAnim")
-            .from("#vrUnityAnim", {y: 100, opacity:0, duration: 1})
-
-        var tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#vrFinalAnim',
-            }});
-        tl.addLabel("vrFinalAnim")
-            .from("#vrFinalAnim", {x: 100, opacity:0, duration: 1})
-            .from('#vrVidAnim', {y:50, opacity:0, duration: .5})
-
-        var tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#vrTakeAnim',
-            }});
-        tl.addLabel("vrTakeAnim")
-            .from("#vrTakeAnim", {y: 100, opacity:0, duration: 1})
+        
     
 //Non-scroll on load home screen timeline//
     var tlHome = gsap.timeline({});
-        tlHome.from("#name1", {opacity:0, duration: 1});
-        tlHome.from("#name2", {opacity:0, duration: .5});
-        tlHome.from(".animTag", {x: -100, opacity:0, duration: .5, delay: .5});
-        tlHome.from(".homeMain2", {opacity:0, duration: .5});
+        tlHome.from("#tagline", {x: -100, opacity:0, delay: .3, duration: .7});
+        tlHome.from(".homeMain2", {y: 100, opacity:0, duration: .5});
     
 //Non-scroll on load Projects Page timeline//
     var tlProj = gsap.timeline({});
-        tlProj.from(".projHeadMove", {opacity:0, duration: .5});
-        tlProj.from(".projMainMove", {x: -100, opacity:0, duration: 1, delay: .5});
-        tlProj.from(".projMainMove2", {x: -100, opacity:0, duration: 1});
-        tlProj.from(".projMainMove3", {x: -100, opacity:0, duration: 1});
+        tlProj.from(".projMainMove", {x: -100, opacity:0, duration: .5, delay: .25});
+        tlProj.from(".projMainMove2", {x: -100, opacity:0, duration: .5});
+        tlProj.from(".projMainMove3", {x: -100, opacity:0, duration: .5});
 
 //Non-scroll on load VR Project Detail Page timeline//
     var tlVR = gsap.timeline({});
@@ -122,4 +74,15 @@ document.addEventListener("DOMContentLoaded", function(){
         tlVR.from("#vrOvrAnim", {x: 100, opacity:0, duration: .5});
         tlVR.from("#vrProjGoalsAnim", {opacity:0, duration: .5});
         tlVR.from("#collabContAnim", {opacity:0, duration: .5});
+
+//Non-scroll on load Fake News Project Detail Page timeline//
+    var tlFN = gsap.timeline({});
+        tlFN.from("#FNHeadsub", {opacity:0, duration: .5, delay: .3});
+        tlFN.from("#FNGreybox1", {x: 100, opacity:0, duration: 1, delay: .1});
+        tlFN.from("#FNOvrAnim", {x: 100, opacity:0, duration: .5});
+        tlFN.from("#FNProjGoalsAnim", {opacity:0, duration: .5});
+        tlFN.from("#FNcollabContAnim", {opacity:0, duration: .5});
 })
+
+
+
