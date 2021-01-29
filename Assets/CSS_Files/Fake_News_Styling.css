@@ -32,6 +32,13 @@
     padding-top: 80px;
 }
 
+.FNSubHeadFlip{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: right;
+}
+
 .FNHeadings{
     font-size: 40px; 
     padding-top: 100px;
@@ -44,6 +51,12 @@
     border-width: 4px;
     border-style: solid;
     border-color: #4A9FBA #4A9FBA white white;
+}
+
+.FNSubBorderFlip{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA;
 }
 
 .FNSubDesc{
@@ -114,7 +127,28 @@
     border-color: #4A9FBA #4A9FBA white white;
 }
 
-/* collaboration section styling */
+/* problem space section styling */
+#hciiLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#hciiLogoSmall{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#fbLoopImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 #FNCollab{
     color: #4A9FBA;
     font-size: 40px;
@@ -163,10 +197,9 @@
     border-radius: 15px;
 }
 
-/* greyboxing image styles */
+/* design iteration styles */
 #oversizedImgFN{
     width: 600px;
-    margin-top: -100px;
 }
 
 #inlineGBFN{
@@ -178,7 +211,7 @@
     padding-right: 20px;
 }
 
-/* modeling section styles */
+/* User Testing section styles */
 #FNModelingImgBorder {
     border-style: solid;
     border-color: #4A9FBA white white #4A9FBA ;
@@ -190,13 +223,17 @@
     height: 400px;
     width: 100%;
     padding-top: 20px;
-    padding-right: 20px;
 }
 
 .modelingCap {
     font-size: 20px;
     text-align: center;
     color: #4B4B4B;
+}
+
+/* final Video styles */
+#FNFinalVid{
+    padding-top: 40px;
 }
 
 /* takeaway seciton accordion styles */

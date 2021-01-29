@@ -70,7 +70,7 @@
                     <div class='container'>
                         <div class="row">
                             <div class="col">
-                                <img id='FNGreybox1' src="Assets/Images/zuzu.png" class='img-fluid'>
+                                <img id='FNGreybox1' src="Assets/Images/zuzu.png" class='img-fluid' alt='Ghost Asset from Game'>
                             </div>
                         </div>
                     </div>
@@ -103,140 +103,130 @@
             </div>
             <div class='col-md-7'>
                 <div class='FNSubDesc'>
-                In September 2019, I participated in a collaborative VR project 
-                with students and faculty from Oregon State University and Stuttgart
-                Media University. This was an educational project designed to raise 
-                public awareness of the strengths and weakness of robotic sensors. 
-                We had to complete the project within a ten-week academic term.
+                    In fall of 2020 I worked with a small group of students at Carnegie Mellon University to produce a prototype mobile game that used persuasive techniques to increase users’ critical thinking skills when detecting fake news. This project was completed over a semester for the Persuasive Design course at CMU. 
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Collaboration container -->
+    <!-- Group Comp container -->
     <div class='container' id='FNcollabContAnim'>
         <div class='row'>
             <div class='col-md-8' id='FNCollab'>
-                Collaboration
+                Group Composition
             </div>
             <div class='col-md-4'>
             </div>
         </div>
         <div class='row'>
             <div class='col-md-5' id='FNCollabDesc'>
-                We worked closely with the students from Stuttgart HdM to 
-                develop concepts that would help transofrm our educational 
-                goals into a fully-realized palyable experience. In addition to 
-                a weeklong in-person brainstorming session, we worked with these 
-                students remotely to ideate our design and share feedback. 
-                Within our own groups teams worked together to divide the work 
-                among our experitise. My main contributions were in detial 
-                modeling using Autodesk Maya and prototyping code in Unity.
+                At the beginning of the semester we were assigned small groups based on common interest in intervention topics. I joined the group focused on improving online behaviors along with fellow MHCI students Meo Zhang, Raajat Gupta, Zach Van Cleef, Aziz Ghadiali, and Cydney Vicentia. We all brought different experiences to the table and chose different project roles. I focused mainly on research and writing, as well as producing our final video presentation.
             </div>
             <div class='col-md-7'>
-                <img src='Assets/Images/HbM_Logo.png' alt='Stuttgart HdM logo' class=img-fluid' id='FNCollabImg'>
+                <img id='hciiLogo' src='Assets/Images/mhci_logo.png' alt='CMU HCII Logo' class="d-none d-xl-block">
+                <img id='hciiLogoSmall' src='Assets/Images/mhci_logo.png' alt='CMU HCII Logo' class="d-xl-none">
             </div>
         </div>
     </div>
 
-    <!-- Brainstorming header -->
+    <!-- Problem Space Section header -->
     <div class='container'>
         <div class='row'>
-            <div class='col-5'>
-                <div class='FNHeadings'>Brainstorm</div>
+            <div class='col-lg-5'>
+                <div class='FNHeadings'>Exploring the Problem Space</div>
             </div>
         </div>
     </div>
 
-    <!-- Initial planning container -->
+    <!-- BG Research container -->
     <div class='container'>
         <div class='row'>
             <div class='col-md-5'>
-                <div class='FNSubHead'>Initial Planning</div>
+                <div class='FNSubHead'>Background Research</div>
             </div>
             <div class='col-md-7'>
             </div>
         </div>
         <div class='row'>
             <div class='col-md-5'>
-                <div class='FNSubBorder'><img src='Assets/Images/Noctis-Evadere-crop.png' class='brainstormImgFN'></div>
+                <div class='FNSubBorder'><img src='Assets/Images/User_Test_FB_Screenshot.JPG' class='brainstormImgFN' alt='Screenshot of the user testing presentation grading articles based on reliability metrics'></div>
             </div>
             <div class='col-md-7'>
                 <div class='FNSubDesc'>
-                    During our weeklong brainstorming session with the German design students our group decided on creating an atmospheric, haunted museum VR experience. We thought that putting players in a dark environment where they would lose the sense of sight would be a perfect way to showcase how robotic sight functions using lidar. We decided on giving the user a ‘flashlight’ that projected a matrix of dots and outlined objects in the field of view, much like how robotic sensors on automated vehicles work.
+                    To accurately represent the issue of Fake News and understand what aspects of fake news were most relevant for our intervention, the group began with several weeks of intensive background research. Having experience with psych literature I began the lit review, and with contributions from other members we compiled a solid basis of peer-reviewed information. Additionally In assisted in conducting several expert interviews with researchers in the field. Other group members found active Facebook users and interviewed them along with administering a small exercise to adjudicate their ability to spot fake news. 
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- expert feedback container -->
+    <!-- Findings container -->
     <div class='container'>
         <div class='row'>
             <div class='col-md-5'>
-                <div class='FNSubHead'>Expert Feedback</div>
+                <div class='FNSubHead'>Findings</div>
             </div>
             <div class='col-md-7'>
             </div>
         </div>
         <div class='row'>
             <div class='col-md-5'>
-                <div class='FNSubBorder'><img src='Assets/Images/car_sensor.png' class='brainstormImgFN'></div>
+                <div class='FNSubBorder'><img src='Assets/Images/feedbackloop.png' id='fbLoopImg' class='brainstormImgFN' alt='Abstraction of a Feedback Loop'></div>
             </div>
             <div class='col-md-7'>
                 <div class='FNSubDesc'>
-                    After deciding on a concept our group met with several Oregon State robotics professors to get expert opinions and information on the current state of robotic sensors. The professors surprised us by explaining that robotic sensors are inherently poor at object detection and that many people overestimate a sensor’s ability to interpret its surroundings. They explained how machine learning techniques for recognizing objects within images are often fooled when presented with an image that differs from the dataset they were trained on. Furthermore they described limitations in lidar technology by showing how beams from the sensors can be blocked by closer objects in the field of view, which can potentially lead to unexpected objects appearing as the sensor moves through space.
+                    Overall our findings indicated that many users wind up sharing and viewing questionable articles thanks to a phenomenon known as a feedback loop. These cycles of information see small clusters of people, who form like-minded in-groups on social media, sharing and posting information that reaffirms their beliefs. The more congruous an article is with the group’s beliefs, the more likely it is they will accept it without question, even if it is blatantly falsified. We saw this in user testing when our younger, liberal-leaning users decided certain articles were perfectly valid to be shared without even reading them or checking the source of the article. This tipped us off that a good target population should be these younger socially conscious users who understand that fake news is a problem but lack the skills and resources to detect it. 
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Final decisions container -->
+    <!-- Targets container -->
     <div class='container'>
         <div class='row'>
             <div class='col-12' id='FNProjGoals'>
-                <div class='FNSubHead'>Final Decisions</div>
+                <div class='FNSubHead'>Intervention Targets</div>
             </div>
         </div>
         <div class='row'>
             <div class='col-12'>
                 <div class= 'FNSubBorder'>
 
-                    <!-- Bootstrap accordion - lists 3 final decisions -->
+                    <!-- Bootstrap accordion - lists 3 Targets -->
                     <div class='container'>
                         <div class="accordion" id="decisionsAccordion">
                             <div class="accordion-item" id='decisionsSeg1'>
                               <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id='decisions1'>
-                                    Decision 1: Show the shortcomings of robotic sensors
+                                    1: The User
                                 </button>
                               </h2>
                               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#decisionsAccordion">
                                 <div class="accordion-body">
-                                    It was clear that many people lacked an understanding of the limitations that robotic sensors have. WIth an increase in self-driving functionality in cars among other implementations, there is real danger in over-relying on machine vision. We decided to make a game that demonstrated how certain situations can confuse sensors and make navigation uncertain
+                                    We decided that our intervention would target younger, socially-conscious users who had a pre-existing understanding that fake news was a problem but did not possess the critical thinking skills to differentiate it on their own social media feeds. From our user testing and literature review we determined that many young social media users fit within this category, and would be more feasible to persuade than older online populations who are less concerned with the fake news phenomenon.
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item" id='decisionsSeg2'>
                               <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id='decisions2'>
-                                    Decision 2: Force users to rely on sensors
+                                    2: The Problem Space
                                 </button>
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#decisionsAccordion">
                                 <div class="accordion-body">
-                                    Robots cannot perform object detection and navigation tasks as well as humans because they simply do not have the reasoning ability of humans. If we just gave players the robotic sensor to use on top of their own vision, they would opt to use their own vision every time as it is inherently better and they can immediately understand what they are seeing. However, by utilizing the immersive nature of virtual reality, we can deprive the users of their vision in certain scenarios to force their reliance on robotic sensors as they navigate through a space. 
+                                    From our background research it was clear that many avenues of intervention could be taken to help reduce the spread of fake news. While feedback loops were a large issue, convincing people to expand or leave their social circles was a huge and ultimately unrealistic challenge. Instead, we wanted to focus on training users to more accurately spot the signs of a fake news article, which our user testing found to be a deficiency for many people.
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item" id='decisionsSeg3'>
                               <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id='decisions3'>
-                                    Decision 3: A Haunted Museum
+                                    3: The Intervention
                                 </button>
                               </h2>
                               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#decisionsAccordion">
                                 <div class="accordion-body">
-                                    To combine these ideas into a game that is fun and immersive we decided that the player must try to escape a haunted museum. We would implement the idea of object detection failure in cameras via a security room that players must walk through and look at to find an escape route. We then would implement vision via the infrared array in a pitch black room full of terracotta soldiers. These soldiers were arranged so that they formed a maze, and the player would have to rely on the sensor to navigate their way through.
+                                    After collaborating on an extensive affinity diagram our group decided on the idea of a social detection game with mechanics that would subtly teach users critical thinking skills in reading news articles as they played. Our group liked this idea due to the high crossover between our target user (young, highly online people) and the game genre (including popular games such as Among Us).
                                 </div>
                               </div>
                             </div>
@@ -247,44 +237,107 @@
         </div>
     </div>
 
-    <!-- Design process header -->
+    <!-- Design Iterations header -->
     <div class='container'>
         <div class='row'>
             <div class='col-5'>
-                <div class='FNHeadings' id='FNDesignAnim'>Design Process</div>
+                <div class='FNHeadings' id='FNDesignAnim'>Design Iterations</div>
             </div>
         </div>
     </div>
 
-    <!-- Greyboxing container -->
+    <!-- Brainstorm Prototypes container -->
     <div class='container'>
         <div class='row'>
             <div class='col-md-5'>
-                <div class='FNSubHead'>Autodesk Maya: Greyboxing</div>
+                <div class='FNSubHead'>Brainstorming Rapid Prototypes</div>
             </div>
             <div class='col-md-7'>
             </div>
         </div>
         <div class='FNSubBorder'>
             <div class='row'>
-                <div class='col-md-7'>
-                    <div class='FNSubDesc'>
-                        We began the modeling process by greyboxing the play space in Autodesk Maya. The group split up which sections of the museum they would design and then combined our rooms in a master file so that they would all connect. I led the design of the overall layout and path that the player would take as they travelled the museum.
+                <div class='col'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-md-7'>
+                                <div class='FNSubDesc'>
+                                    At this stage of the project our group had a good idea of the target user and persuasive goals of our intervention, but we needed a solid prototype to test with. We began by splitting off and creating several quick ideas in tandem. From these early iterations we decided on a game where players would assume the role of ghost hunters searching an abandoned house for rituals to exercise a demon, with one player secretly playing as the demon and attempting to trick the others into failing the exorcism.
+                                </div>
+                            </div>
+                            <div class='col-md-5'>
+                                <div><img src='Assets/Images/proto_home_screen.png' class='brainstormImgFN' alt='Home screen of Prototype'></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class='col-md-5'>
-                    <img src='Assets/Images/greybox.png' alt='greybox museum model' class="d-none d-xl-block" id='oversizedImgFN'>
-                    <img src='Assets/Images/greybox.png' alt='greybox museum model' class="d-xl-none" id='inlineGBFN'>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modeling container -->
+    <!-- Gameplay Design container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-7'>
+            </div>
+            <div class='col-md-5'>
+                <div class='FNSubHeadFlip'>Gameplay Design</div>
+            </div>
+        </div>
+        <div class='FNSubBorderFlip'>
+            <div class='row'>
+                <div class='col'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-md-5'>
+                                <div><img src='Assets/Images/Proto_Evidence_Example.png' class='brainstormImgFN' alt='Evidence screen showing news article and user options'></div>
+                            </div>
+                            <div class='col-md-7'>
+                                <div class='FNSubDesc'>
+                                    Our intervention revolves around a gameplay loop of finding evidence, determining if it is valid, and bringing it to the group discussion phase where players argue for the validity of their piece and vote on one to exclude from the ritual. When designing the prototype I worked with one other group member to create all of the written content. This was a crucial element as we needed the articles to be entertaining for players to read while still containing the relevant aspects of news articles that we wanted to capture (source, headline, image and text content). I worked to balance the evidence so that some were written more like trustworthy news articles and others borrowed fake news red flags defined on Snopes.com and from literature we reviewed. These red flags could include missing information such as an author with few credentials, a ‘clickbaity’ headline with only a picture or short description, or come from an unknown site. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Persuasive Elements container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='FNSubHead'>Persuasive Elements</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='FNSubBorder'>
+            <div class='row'>
+                <div class='col'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-md-7'>
+                                <div class='FNSubDesc'>
+                                    Our group worked to ensure that the intervention utilized many research-supported methods for persuasion so that users would be likely to retain the critical thinking skills they learned during gameplay. This embedded design included obfuscation via a fictional world and competition-based gameplay, as well as activation of system 2 ‘conscious’ thinking when viewing online news. 
+                                </div>
+                            </div>
+                            <div class='col-md-5'>
+                                <div><img src='Assets/Images/proto_pre_round.png' class='brainstormImgFN' alt='Pre-round screen telling user their role in gameplay'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Testing container -->
     <div class='container'>
         <div class='row'>
             <div class='col-md-8'>
-                <div class='FNSubHead'>Autodesk Maya: Modeling and Lighting</div>
+                <div class='FNSubHead'>User Testing</div>
             </div>
                 <div class='col-md-4'>
             </div>
@@ -294,28 +347,28 @@
                 <div class='container' id='FNModelingImgBorder'>
                     <div class='row'>
                         <div class='col-md-4'>
-                            <img src='Assets/Images/axe_ref.png' alt='reference image of axe' class='modelingImgFN'>
+                            <img src='Assets/Images/Proto_lofi.png' alt='reference image of axe' class='modelingImgFN'>
                             <figcaption class='modelingCap'>
-                                Model Reference
+                                Low Fidelity
                             </figcaption>
                         </div>
                         <div class='col-md-4'>
-                            <img src='Assets/Images/axe_grey.JPG' alt='model of axe' class='modelingImgFN'>
+                            <img src='Assets/Images/Proto_midfi.png' alt='model of axe' class='modelingImgFN'>
                             <figcaption class='modelingCap'>
-                                Basic Shape
+                                Mid Fidelity
                             </figcaption>
                         </div>
                         <div class='col-md-4'>
-                            <img src='Assets/Images/Axe_in_case.JPG' alt='model of axe in room' class='modelingImgFN'>
+                            <img src='Assets/Images/Proto_hifi.png' alt='model of axe in room' class='modelingImgFN'>
                             <figcaption class='modelingCap'>
-                                In Scene
+                                High Fidelity
                             </figcaption>
                         </div>
                     </div>
                     <div class='row'>
                         <div class='col' style='padding-top: 40px; padding-bottom: 40px'>
                             <div class='FNSubDesc'>
-                                I modeled many assets for the final design of the project including the entirety of the ‘medieval room’ as well as many artifacts, containers, display cases and other props throughout the museum. I began by finding reference images to use as I modeled so that my assets would be more realistic. After creating an initial shape, I would refine the model by adding vertices and sculpting. Finally, I would place individual assets within the larger scene. In addition to modeling I created many textures and UV maps for our assets. The group exported our models into Unity where we created lighting effects and sound effects to make the space more immersive.
+                                Our prototype went through 3 rounds of user testing. In the first round we tested a variety of game concepts before narrowing down to one that incorporated the best of everything based on user feedback. We found that many users were confused by the rules we provided, making clarity a priority in future iterations. We also found that people were fatigued when reading too many articles during gameplay, so we put a focus on intermixing our main intervention with other game mechanics to make the users more comfortable when playing. In the second iteration, participants positively reacted to the social dynamic of the game, which we simulated by having group members play along as other players during the session. We wanted players to work together and vote on a piece of evidence that seemed the most suspicious, therefore getting the user practice at singling out unreliable sources of information. These mechanics were still being fleshed out and many users reported being confused by this process at this stage. Our final prototype was still operated via wizard-of-oz mechanics by group members behind the scenes, but were able to test pairs of participants in single sessions, showing us how true group dynamics would play out within the game. Our findings were overwhelmingly positive, with players working together to discuss the merits of their collected evidence and even using tactics that were directly applicable to the real world, such as researching the source of their evidence to find if it was reliable. 
                             </div>
                         </div>
                     </div>
@@ -325,10 +378,13 @@
                             <div id="FNUnityCarousel" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <img src="Assets/Images/unity1.JPG" class="d-block w-100" alt="Lighting in unity">
+                                    <img src="Assets/Images/Proto_logic_1.png" class="d-block w-100" alt="Ghost Hunter Gameplay Logic">
                                   </div>
                                   <div class="carousel-item">
-                                    <img src="Assets/Images/unity2.JPG" class="d-block w-100" alt="More lighting in unity">
+                                    <img src="Assets/Images/Proto_logic_2.JPG" class="d-block w-100" alt="Demon Player Gameplay Logic">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Assets/Images/Proto_Logic_3.png" class="d-block w-100" alt="Voting Screen Gameplay Logic">
                                   </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#FNUnityCarousel" role="button" data-bs-slide="prev">
@@ -345,7 +401,7 @@
                     <div class='row'>
                         <div class='col'>
                             <div class='FNSubDesc' style='text-align: center;'>
-                                Adding Light in Unity
+                                Wizard of Oz Prototpying Setup in Figma
                             </div>
                         </div>
                     </div>
@@ -354,32 +410,11 @@
         </div>
     </div>
 
-    <!-- Interaction container -->
-    <div class='container'>
-        <div class='row'>
-            <div class='col-md-5'>
-                <div class='FNSubHead'>Unity: Interaction</div>
-            </div>
-            <div class='col-md-7'>
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-md-5'>
-                <div class='FNSubBorder'><img src="Assets/Images/robotic_sensor_tool.JPG" alt="The robotic sensor, resembling a flashlight"  class='brainstormImgFN'></div>
-            </div>
-            <div class='col-md-7'>
-                <div class='FNSubDesc'>
-                    To make the model playable in VR our team used the VRTK Unity plugin for Oculus Rift. We spent weeks troubleshooting the game, optimizing it for framerate, making many elements intractable including containers and light switches,  and creating physics boundaries to restrict teleportation movement. One key focus here was the robotic sensor tool. With the help of a professor we were able to integrate code for this tool that allowed it to project a dot matrix into the environment, simulating robotic vision.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- final product header -->
+    <!-- final presentation header -->
     <div class='container'>
         <div class='row'>
             <div class='col-5'>
-                <div class='FNHeadings'>Final Product</div>
+                <div class='FNHeadings'>Final Presentation</div>
             </div>
         </div>
     </div>
@@ -388,16 +423,17 @@
     <div class='container'>
         <div class='row'>
             <div class='col'>
-                <iframe src="https://drive.google.com/file/d/1T7iGVaevVXY7mqTM5EmwRnPiZ1fgjubJ/preview" width="90%" height="600px" style="padding-top: 40px;"></iframe>
+                <iframe class='d-none d-xl-block' id='FNFinalVid' src="https://drive.google.com/file/d/1Hlsq5k2D1u_H_kJrdBmTGSg4oqtRxfZH/preview" width="60%" height="500px" allowfullscreen></iframe>
+                <iframe class="d-xl-none" id='FNFinalVid' src="https://drive.google.com/file/d/1Hlsq5k2D1u_H_kJrdBmTGSg4oqtRxfZH/preview" width="100%" height="500px" allowfullscreen></iframe>
             </div>
         </div>
         <div class='row'>
             <div class='col'>
                 <div class='FNSubDesc' style='padding-top: 40px;'>
-                    Our group presented our final product in an end-of the-term showcase as well as via video conference with the German design students. The experience was fully playable and overall was easy to pick up and use on the oculus rift. With more time our group would have loved to explore the object recognition concept more, as the current state of the security monitors does not allow for interaction.
+                    Our group presented the results of our user testing and the mechanics of our intervention to our class in December of 2020. I produced a 30-minute long video that detailed our creative process and showcased our high-fidelity prototype.
                 <br>
                 <br>
-                <a href='https://drive.google.com/drive/folders/1Ldqs_b-b_7tTgGR7CNAS8SPiEnZrKRGZ?usp=sharing'>Link to the playable project</a> (requires oculus rift to work properly)
+                <a href='https://www.figma.com/proto/CbaUYx4SRmNXj8zasyIUde/Ghostbusters-v1?node-id=670%3A1873&scaling=scale-down'>Link to the Figma Prototpye</a>
                 </div>  
             </div>
         </div>
@@ -414,7 +450,7 @@
         </div>
         <div class='row'>
             <div class='col-md-5' style="margin-bottom: 150px;">
-                <div class='FNSubBorder'><img src='Assets/Images/ascendent_thermal_optical_secuirty_ptz_camera-500.png' class='brainstormImgFN'></div>
+                <div class='FNSubBorder'><img src='Assets/Images/Zoom_Background.png' class='brainstormImgFN' alt="Background used for virtual presentation of the intervention"></div>
             </div>
             <div class='col-md-7'>
                 <!-- Bootstrap accordion with three main takeaways -->
@@ -422,36 +458,36 @@
                     <div class="accordion-item" id='taSeg1'>
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id='ta1'>
-                            Balancing fun and education
+                            1: Wizard of Oz User Testing
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#taAccordion">
                         <div class="accordion-body">
-                            Our group struggled most with creating an immersive VR experience that could teach complex concepts like the limitations of machine vision while still being fun for the average user to pick up and play. Ultimately I feel like we could have done a more thorough job of explaining how the robotic sensor worked, but we were pleased with the playability of our project.
+                            This project required intense planning and coordination between the team members to properly test our prototype with the users. Several team members had to work behind the scenes to line up elements of the different screens based on real-time choices made by multiple users as they played through the prototype, while others led them through and some acted as confederates. It was a challenge but I learned a great deal about coordinating such efforts and feel comfortable with user testing in such high-pressure situations. 
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item" id='taSeg2'>
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id='ta2'>
-                            Group dynamics
+                            2: Hiding Persuasive Intent
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#taAccordion">
                         <div class="accordion-body">
-                            This was the first project of  this scope that I had ever worked on with a group. Everything had to be coordinated perfectly so that our models matched both in scale and in style. If any one member was out of sync the entire project was at risk of failure as we only had 10 weeks to complete it. I learned valuable skills in time management, solving issues with group dynamics, and adapting my style of design to work with the vision of others.
+                            We found that the more our users could see through to “the point” of the intervention, the more they would find reading the articles to be dull or tedious. From these initial user test findings our group prioritized obfuscation techniques and other methods of distancing the face value of the experience from the persuasive intent, so that users felt more like they were playing a game and less like they were learning a lesson. 
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item" id='taSeg3' style='margin-bottom: 40px;'>
                       <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id='ta3'>
-                            Building design skills
+                            3: Group Delegation
                         </button>
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#taAccordion">
                         <div class="accordion-body">
-                            So much planning, prototyping and iteration went into making this project both functionally and aesthetically effective. Before this project i had done some graphic and 3D design work but I did not fully appreciate the iterative method as a tool for refinement. I also gained a ton of practical skill in a wide variety of applications, from Maya to Unity to Adobe software like premiere pro and photoshop.
+                            The amount of work hours our group put in for this project was well beyond the scope of the assignment, but due to our passion for the subject matter and good dynamic we were able to make everything happen before the deadline, including the production of over 10 prototype gameflows and three rounds of user testing in three weeks. I learned a lot from my peers about effective ways to break up workload, letting members take over sections that suited their expertise and knowing when to step back if someone else has a good idea.
                         </div>
                       </div>
                     </div>
