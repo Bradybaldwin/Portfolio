@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='Assets/CSS_Files/styling.css'>
+    <link rel='stylesheet' href='Assets/CSS_Files/PP_Capstone_Styling.css'>
+    <title>Brady Baldwin</title>
+  </head>
+  <body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="Assets/JS_Files/main.js"></script>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='PPNavMain'>
+        <div class="container-fluid" id='topNavPP'> 
+          <a class="navbar-brand" href="#">Brady Baldwin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projects_page.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Assets/Images/Brady_Baldwin_Resume_3_21_2021.pdf" target="_blank">Resume</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- page progress bar -->
+    <div class='progBarBG'>
+        <div class='progBar' id='thisBar'></div>
+    </div>
+
+    <!-- page title and blurb -->
+    <div class='container-fluid' id='PPHeadBG'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class='container' id='PPHeadsub'>
+                        <div class="row">
+                            <div class="col">
+                                <h4 id='PPTitle'>Capstone Project: Pandemic Professors</h4>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col">
+                                <p id='PPSum' >A two-term Capstone Project with four other MHCI students. Working alongside Pandemic Professors, a non-profit online tutoring service, to improve their tutor-student pairing process.
+                                </social-media></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class='container'>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overview header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='PPHeadings' id='PPOvrAnim'>Page Under Construction</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project goals container -->
+    <div class='container'  id='PPProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='PPSubHead'>Work in Progress</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='PPSubBorderBlank'>
+                <div></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='PPSubDesc'>
+                    This page is under construction as I work through my Capstone project
+                    for the next two terms. If you'd like to follow along our group's progress,
+                    we have frequent Medium posts that can be found here:
+                </div>
+                    <a href="https://mhci-pandemicprofs-21.medium.com/">Medium Post Archive</a>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='container-fluid' style="background-color: black;   padding-top: 20px; color: grey;">
+        <div class='row'>
+            <div class='col'></div>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                                <img onclick='showMail()' id='mailButton' class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/gmail.png'>
+                            <a href="https://www.facebook.com/brady.baldwin.50" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/facebook.png'>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brady-baldwin/" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/LinkedIn.png'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class='row'>
+            <div>Created by Brady Baldwin, 2020</div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -112,6 +112,36 @@
     font-size: 50px;
 }
 
+/* featured project 4 styles */
+#projImg4 {
+    background-image: url(Images_copy/PP_LOGO.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 5px 0px 10px rgb(126, 126, 126);
+}
+
+#projDesc4 {
+    background-color: #c1ebe5;
+    border-radius: 0px 15px 15px 0px;
+    z-index: -10;
+}
+
+#projTitle4 {
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+#projSum4 {
+    padding-bottom: 15px;
+}
+
+#projBtn4{
+    font-size: 50px;
+}
+
 /* bottom project styles */
 #bottom1{
     background-image: url(Images_copy/sub_screens_ovrview.png);

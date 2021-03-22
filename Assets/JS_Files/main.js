@@ -43,6 +43,14 @@ document.addEventListener("DOMContentLoaded", function(){
         tl.addLabel("homeScroll3")
             .from('.homeScroll3', {y:100, opacity: 0, duration: 1.5})
             .to('.homeScroll3', {y:0, opacity: 100, duration: 1.5})
+            
+         var tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.homeScroll4',
+             }});
+        tl.addLabel("homeScroll4")
+            .from('.homeScroll4', {y:100, opacity: 0, duration: 1.5})
+            .to('.homeScroll4', {y:0, opacity: 100, duration: 1.5})
 
 //Projects Page Scrolling Animations//
         var tl = gsap.timeline({
@@ -66,6 +74,7 @@ document.addEventListener("DOMContentLoaded", function(){
         tlProj.from(".projMainMove", {x: -100, opacity:0, duration: .5, delay: .25});
         tlProj.from(".projMainMove2", {x: -100, opacity:0, duration: .5});
         tlProj.from(".projMainMove3", {x: -100, opacity:0, duration: .5});
+        tlProj.from(".projMainMove4", {x: -100, opacity:0, duration: .5});
 
 //Non-scroll on load VR Project Detail Page timeline//
     var tlVR = gsap.timeline({});
@@ -82,6 +91,13 @@ document.addEventListener("DOMContentLoaded", function(){
         tlFN.from("#FNOvrAnim", {x: 100, opacity:0, duration: .5});
         tlFN.from("#FNProjGoalsAnim", {opacity:0, duration: .5});
         tlFN.from("#FNcollabContAnim", {opacity:0, duration: .5});
+
+//Non-scroll on load Capstone Project Detail Page timeline//
+    var tlFN = gsap.timeline({});
+        tlFN.from("#PPHeadsub", {opacity:0, duration: .5, delay: .3});
+        tlFN.from("#PPOvrAnim", {x: 100, opacity:0, duration: .5});
+        tlFN.from("#PPProjGoalsAnim", {opacity:0, duration: .5});
+        tlFN.from("#PPcollabContAnim", {opacity:0, duration: .5});
 })
 
 

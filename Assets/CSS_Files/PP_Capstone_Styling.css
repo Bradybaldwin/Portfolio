@@ -1,0 +1,133 @@
+/* nav stlying */
+#topNavPP{
+    background-color: #3DC2AE;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#PPNavMain {
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* 
+*****re-used styles throughout every container*****
+ Subhead=blue headings
+ headings=black section headings
+ sub border=blue style lines with subheadings
+ sub desc=sub section text
+ brainstorm img = all images in subheading containers (keeps them bound within)
+ sum list stlye = style for all accordion lists
+ sum list text = stlye for text in accordion list
+ */
+
+.PPSubHead{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.PPSubHeadFlip{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: right;
+}
+
+.PPHeadings{
+    font-size: 40px; 
+    padding-top: 100px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white white black white;
+}
+
+.PPSubBorder{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA #4A9FBA white white;
+}
+
+.PPSubBorderFlip{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA;
+}
+
+.PPSubDesc{
+    font-size: 20px;
+}
+
+.brainstormImgPP{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.PPSumListStyle {
+    background-color: #B2C4CA;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.PPSumListNum {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3DC2AE;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    padding-top: 18px
+}
+
+.PPSumListText {
+    font-size: 30px;
+    padding-top: 18px
+}
+
+/* Header */
+#PPHeadBG{
+    background: linear-gradient(#4A9FBA 70%, white);
+}
+
+#PPTitle{
+    color: white;
+    padding-top: 20px;
+    font-size: 80px;
+}
+
+#PPSum{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+#PPGreybox1{
+    object-fit: contain;
+}
+
+/* footer buffer */
+#PPProjGoalsAnim{
+    margin-bottom: 100px;
+}
+
+/* blank div border */
+#PPSubBorderBlank{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA #4A9FBA white white;
+}
