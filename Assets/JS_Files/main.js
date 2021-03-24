@@ -61,8 +61,6 @@ document.addEventListener("DOMContentLoaded", function(){
             .from('.projSubMove', {y:200, opacity: 0, duration: .7})
             .to('.projSubMove', {y:0, opacity: 100, duration: .7})
 
-//VR Project Detail Page Scrolling animations//
-        
     
 //Non-scroll on load home screen timeline//
     var tlHome = gsap.timeline({});
@@ -93,11 +91,19 @@ document.addEventListener("DOMContentLoaded", function(){
         tlFN.from("#FNcollabContAnim", {opacity:0, duration: .5});
 
 //Non-scroll on load Capstone Project Detail Page timeline//
+    var tlCP = gsap.timeline({});
+        tlCP.from("#PPHeadsub", {opacity:0, duration: .5, delay: .3});
+        tlCP.from("#PPOvrAnim", {x: 100, opacity:0, duration: .5});
+        tlCP.from("#PPProjGoalsAnim", {opacity:0, duration: .5});
+        tlCP.from("#PPcollabContAnim", {opacity:0, duration: .5});
+
+//Non-scroll on load UCRE Project Detail Page timeline//
     var tlFN = gsap.timeline({});
-        tlFN.from("#PPHeadsub", {opacity:0, duration: .5, delay: .3});
-        tlFN.from("#PPOvrAnim", {x: 100, opacity:0, duration: .5});
-        tlFN.from("#PPProjGoalsAnim", {opacity:0, duration: .5});
-        tlFN.from("#PPcollabContAnim", {opacity:0, duration: .5});
+        tlFN.from("#UCHeadsub", {opacity:0, duration: .5, delay: .3});
+        tlFN.from("#UCGreybox1", {x: 100, opacity:0, duration: 1, delay: .1});
+        tlFN.from("#UCOvrAnim", {x: 100, opacity:0, duration: .5});
+        tlFN.from("#UCProjGoalsAnim", {opacity:0, duration: .5});
+        tlFN.from("#UCcollabContAnim", {opacity:0, duration: .5});
 })
 
 

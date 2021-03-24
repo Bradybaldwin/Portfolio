@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='Assets/CSS_Files/styling.css'>
+    <link rel='stylesheet' href='Assets/CSS_Files/UCRE_Styling.css'>
+    <title>Brady Baldwin</title>
+  </head>
+  <body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="Assets/JS_Files/main.js"></script>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='UCNavMain'>
+        <div class="container-fluid" id='topNavUC'> 
+          <a class="navbar-brand" href="#">Brady Baldwin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projects_page.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Assets/Images/Brady_Baldwin_Resume_3_21_2021.pdf" target="_blank">Resume</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- page progress bar -->
+    <div class='progBarBG'>
+        <div class='progBar' id='thisBar'></div>
+    </div>
+
+    <!-- page title and blurb -->
+    <div class='container-fluid' id='UCHeadBG'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class='container' id='UCHeadsub'>
+                        <div class="row">
+                            <div class="col">
+                                <h4 id='UCTitle'>Designing the KST Membership Experience</h4>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col">
+                                <p id='UCSum' >Role: Lead Researcher / Time Frame: 2 Months <br>
+                                    Group Members: Myself, Shalini Rao, Alex Tsai, Phipson Lee <br>
+                                    Carnegie Mellon University 
+                                </social-media></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class='container'>
+                        <div class="row">
+                            <div class="col" style="margin-top: 40px;">
+                                <img id='UCGreybox1' src="Assets/Images/HIFI_Screen_3.png" class='img-fluid' alt='Final screen from prototype'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overview header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='UCHeadings' id='UCOvrAnim'>Overview</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project background container -->
+    <div class='container'  id='UCProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubHead'>Project Background</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='UCSubBorderBlank'>
+                <div></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='UCSubDesc'>
+                    In fall of 2020 I began working on a research project with three other students to innovate new ways for the Kelly-Strayhorn Theater, a local Pittsburgh dance theater, to increase donations and grow their online presence during the pandemic. This was a two-month project for the User-Centered Research and Evaluation graduate course at Carnegie Mellon University. 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Proj goals container -->
+    <div class='container' id='UCcollabContAnim'>
+        <div class='row'>
+            <div class='col-md-8' id='UCCollab'>
+                Project Goals
+            </div>
+            <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='UCCollabDesc'>
+                Our group focused on increasing donations for the Kelly-Strayhorn theater. This client was a local dance theater who had grown their presence on Instagram during the pandemic but were still struggling to connect with their traditional audience or find ways to garner donations during the pandemic. We wanted to bolster their online presence with research-supported methods of increasing engagement and fostering community in a digital space. 
+            </div>
+            <div class='col-md-7'>
+                <img id='maskimg' src='Assets/Images/theater_masks.jpg' alt='Theater Masks'>
+            </div>
+        </div>
+    </div>
+
+    <!-- Group Dynam container -->
+    <div class='container'  id='UCProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubHead'>Group Dynamics</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='UCSubBorderBlank'>
+                <div></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='UCSubDesc'>
+                    I had the privilidge of working with a great group of peers for this project. As the purpose of the project and the class was to improve our user research skills we all contributed to the research and interpretaion process, but I worked as the lead researcher. Other group members worked as project manager, lead designer, and technician. This project was my first experience using a group contract, which we compiled to make sure we were all committed to ensuring the project’s success.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- init research Section header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-lg-5'>
+                <div class='UCHeadings'>Initial research</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- comp analysis container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubHead'>Competetive Analysis</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubBorder'><img src='Assets/Images/UFT.JPG' class='brainstormImgUC' alt='Screenshot of the useability findings from competetitor theater site'></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='UCSubDesc'>
+                    Our group began by examining artifacts from KST itself (sales numbers, website, etc.) and quickly moved on to see how other theater companies were handling their donation systems during the pandemic. We found many usability problems across several competitor websites. Among the most consistent findings was that users were very fursturated when membership or donation tier benefits were unclear. In order to drive donations, KST would have to re-think the perks they were offering to donors.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Findings container -->
+    <div class='container'  id='UCProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubHead'>Contextual Inquiry</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='UCSubBorderBlank'>
+                <div></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='UCSubDesc'>
+                    To better understand the problem space our group conducted in-depth contextual inquiries with four participants who had experience with donating to content creators online, or creating content themselves. These interviews lasted around 1 hour and featured the participant gooing through their Patreon, YouTube, Twitch, or other platforms where they find and support content creators. We gained many insights from these interviews as to what factors incentivized user to donate. I serve as the lead researcher by helping organize the schedule of these interviews and compile an executive summary document, shown on the left.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Targets container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-12' id='UCProjGoals'>
+                <div class='UCSubHead'>Major Findings</div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-12'>
+                <div class= 'UCSubBorder'>
+
+                    <!-- Bootstrap accordion - lists 3 Targets -->
+                    <div class='container'>
+                        <div class="accordion" id="decisionsAccordion">
+                            <div class="accordion-item" id='decisionsSeg1'>
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id='decisions1'>
+                                    1: Leverage Multiple Platforms for the most Supporters
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#decisionsAccordion">
+                                <div class="accordion-body">
+                                   Beyond checking the content creator’s main creation page for content updates, participants also rely on social media and its algorithms to keep up to date. Participants interface with the recommendation systems implemented by the social media outlet of their choice, and participants have expressed that they are aware of this, and use it as a method of exploring and finding content they like. They find new creators based on collaborations with existing creators that they are subscribed to, or through the recommendation system that gives them similar content.<br>
+                                    Content creators, on the other hand, try to take advantage of the importance of social media and disseminate their content through those platforms. Consistently, content creators have emphasized the importance of maintaining consistent content and branding across all social media platforms, and the need to share content across multiple social media outlets to improve discoverability. 
+                                    Methods include sharing highlight reels and content digests on Youtube and engaging with communities on Twitter.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item" id='decisionsSeg2'>
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id='decisions2'>
+                                    2: People are driven to content connected to their community
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#decisionsAccordion">
+                                <div class="accordion-body">
+                                    Whether it be by intentional search or algorithmic suggestion, many people seek new content that is in some way related to content with which they are already familiar. People are more inclined to view (and thus donate to) creators who have collaborated with someone they know, creators involved in their areas of interest, and thumbnails/titles that promise the kind of content they are looking for.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item" id='decisionsSeg3'>
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id='decisions3'>
+                                    3: Creators who appear to do the most with their donation are more appealing to potential supporters
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#decisionsAccordion">
+                                <div class="accordion-body">
+                                    Consistently, users expressed their desire to donate to content creators who “need it more”, and they avoid donating to large creators if they feel that their donation would have less value. Additionally, some participants stated that they hope their donations will help improve and aid creators who treat content creation as their primary source of income, whose content would benefit the larger community of viewers.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item" id='decisionsSeg4'>
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id='decisions4'>
+                                      4: People will donate for intrinsic motivations like rewarding good content
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#decisionsAccordion">
+                                  <div class="accordion-body">
+                                    From our participants, some of the reasons behind donating include “rewarding those who create good content”, “contributing to a community they feel they belong to”, and “supporting a creator of good moral character”.
+
+                                    Although the content itself is a main deciding factor, people do value the personalities behind the creators and the educational value that some creators may provide.
+                                   
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id='decisionsSeg5'>
+                                <h2 class="accordion-header" id="headingFive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" id='decisions5'>
+                                      5: Supporters like donations to lead to tangible benefit
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#decisionsAccordion">
+                                  <div class="accordion-body">
+                                    Users have also expressed interest in donating to specific content creators based on the perks and tiers that the creator provides for donors. For example, a user cited Twitch icons and “emojis” as key motivators for donating a certain amount to a content creator, because she felt a sense of community and liked the design of those icons. Additionally, users expressed the significance of personalized educational content such as one-on-one coaching sessions for video games based on the amount of money that the user donates to a content creator. Users also get exclusive access to content through their donations, which builds a sense of belonging and community.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ideation header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='UCHeadings' id='UCDesignAnim'>Ideating a Solution</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Speed dating container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubHead'>Speed Dating: Storyboards</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='UCSubBorder'>
+            <div class='row'>
+                <div class='col'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-md-7' style="margin-top: 20px;">
+                                <div class='UCSubDesc'>
+                                    Now that we knew what drove users to donate we had to think of ways that KST could adopt these practices in their current business. We first decided on four main user needs and built three storyboards addressing a potential solution for each need. As lead researcher I organized interview sessions where we speed-dated all 12 storyboards to a participant who gave their reactions to the solution. 
+                                </div>
+                            </div>
+                            <div class='col-md-5'>
+                                <div><img src='Assets/Images/storyboard_capture.JPG' class='brainstormImgUC' alt='Initial Storyboards created through Miro'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Storyboarding container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-7'>
+            </div>
+            <div class='col-md-5'>
+                <div class='UCSubHeadFlip'>Storyboarding: Analysis and Revision</div>
+            </div>
+        </div>
+        <div class='UCSubBorderFlip'>
+            <div class='row'>
+                <div class='col'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-md-5'>
+                                <div><img src='Assets/Images/FinalStoryboard.png' class='brainstormImgUC' alt='Finalized Storyboards'></div>
+                            </div>
+                            <div class='col-md-7' style="margin-top: 20px;">
+                                <div class='UCSubDesc'>
+                                    After testing our storyboards we found that there were several solutions which users liked the most. People responded very well to the idea of educational perks such as workshops that they could attend if they supported the theater. They also appreciated getting involved with a larger community of supporters. We created a final storyboard of a solution that combined some of these solutions, culminating in the ‘member hub’.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Testing container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-8'>
+                <div class='UCSubHead'>Prototyping a Membership Experience</div>
+            </div>
+                <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='container' id='UCModelingImgBorder'>
+                    <div class='row'>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/lofi_1.png' alt='Lofi prototype page 1' class='modelingImgUC'>
+                            <figcaption class='modelingCap'>
+                                Home Page
+                            </figcaption>
+                        </div>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/Lofi_2.png' alt='Lofi prototype page 2' class='modelingImgUC'>
+                            <figcaption class='modelingCap'>
+                                Membership Sales Page
+                            </figcaption>
+                        </div>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/Lofi_3.png' alt='Lofi prototype page 3' class='modelingImgUC'>
+                            <figcaption class='modelingCap'>
+                                Membership Hub Page
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-top: 40px; padding-bottom: 40px'>
+                            <div class='UCSubDesc'>
+                                Our prototype went through 3 rounds of user testing. In the first round we tested a variety of game concepts before narrowing down to one that incorporated the best of everything based on user feedback. We found that many users were confused by the rules we provided, making clarity a priority in future iterations. We also found that people were fatigued when reading too many articles during gameplay, so we put a focus on intermixing our main intervention with other game mechanics to make the users more comfortable when playing. In the second iteration, participants positively reacted to the social dynamic of the game, which we simulated by having group members play along as other players during the session. We wanted players to work together and vote on a piece of evidence that seemed the most suspicious, therefore getting the user practice at singling out unreliable sources of information. These mechanics were still being fleshed out and many users reported being confused by this process at this stage. Our final prototype was still operated via wizard-of-oz mechanics by group members behind the scenes, but were able to test pairs of participants in single sessions, showing us how true group dynamics would play out within the game. Our findings were overwhelmingly positive, with players working together to discuss the merits of their collected evidence and even using tactics that were directly applicable to the real world, such as researching the source of their evidence to find if it was reliable. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-bottom: 20px'>
+                            <div class='UCSubHead'>
+                               Think-Aloud Testing
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='UCSubDesc'>
+                                I helped to draft a quick think-aloud protocol that we would administer in interview sessions while we had users interface with our prototpye over Zoom. These users were all theater-goers who could be potentially interested in supporting a local theater. During our testing we found that these older, more traditional theater-goers felt unsure about using more casual outside technologies like discord for the purposes of a community chat. They also wanted to know more details about what each perk meant and how it applied to them personally. People really wanted more information in the membership hub about where and when events were happeneing, and how to access them if they were digital. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-bottom: 20px'>
+                            <div class='UCSubHead'>
+                               Hi-Fi Prototype
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-bottom: 30px'>
+                            <div class='UCSubDesc'>
+                                We went back to our prototype and improved the core functionality to reflect our findings from the think-aloud testing. In addition we added more polish to the prototype so that the client would be better able to see how it fit into their current website’s ecosystem. One change we made was a shift from a discord channel to a built-in discussion board on the site that was heavily simplified. We offloaded much of the community interaction to simple tasks like polls to pick the next workshop, making it feel more natural and connected to the rest of the hub. We also added dropdowns for every perk on the sales page to further elaborate on how the user would benefit from each perk shown. Finally we added a community calendar so that users would never be confused about the timing or nature of an upcoming event. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class=row>
+                        <div class=col>
+                            <!-- Bootstrap Carousel of Unity screenshots -->
+                            <div id="UCUnityCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="Assets/Images/HIFI_Screen_1.png" class="d-block w-100" alt="Hi-Fi Prototype home page">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Assets/Images/HIFI_Screen_2.png" class="d-block w-100" alt="Hi-Fi Prototype sign-up page">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Assets/Images/HIFI_Screen_3.png" class="d-block w-100" alt="Hi-Fi Prototype member hub page">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#UCUnityCarousel" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#UCUnityCarousel" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='UCSubDesc' style='text-align: center;'>
+                                Hi-Fi Prototype Screens
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- final presentation header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='UCHeadings' style="margin-top: 100px;">Pitch to Client</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container with embedded video from google drive and description -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col' style="margin-top: 40px;">
+                <img src='Assets/Images/final_poster.png' alt="Final poster presented to client">
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='UCSubDesc' style='padding-top: 40px;'>
+                    Every group in the class was given the chance to present their findings to the KST management during an hour-long poster session. I helped my group by distilling our work into a few bite-sized chunks for the poster. I worked to pull our strongest quotes from users throughout our many phases of research and impart a few of our main findings as well. I also created a timeline of methods that gave the client a snapshot view of how we came to our final prototype. Every group member got a chance to present our findings with a quick elevator pitch. It was very gratifying to hear how excited the KST management were with our findings. They were actually in the process of re-designing their website and wanted to remain in contact to make sure they were incorporating new features in accordance with user needs that we uncovered in our research.
+                <br>
+                <br>
+                <a href='https://www.figma.com/proto/VKivdfRyaXYVU6khpHrMiw/LowFiPrototype?node-id=2%3A14&scaling=min-zoom'>Link to the Figma Prototpye</a>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- Takeaways container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='UCSubHead'>Takeaways</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' style="margin-bottom: 150px;">
+                <div class='UCSubBorder'><img src='Assets/Images/KST_Sign.jpg' class='brainstormImgUC' alt="Background used for virtual presentation of the intervention"></div>
+            </div>
+            <div class='col-md-7'>
+                <!-- Bootstrap accordion with three main takeaways -->
+                <div class="accordion" id="taAccordion">
+                    <div class="accordion-item" id='taSeg1'>
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id='ta1'>
+                            1: Digital Interviewing 
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#taAccordion">
+                        <div class="accordion-body">
+                            Though I had experience with interviews before this project I had never consucted such thorough interviews over video call. I learned how to manage screen sharing, estabilsh a rapport, and remain confident even through the digital divide. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item" id='taSeg2'>
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id='ta2'>
+                            2: Executive Summary
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#taAccordion">
+                        <div class="accordion-body">
+                            I’ve previously had difficulty boiling down all of my ideas and findings into a digestible form. This project gave me the tools to create a concise but effective executive summary. Our group consistently produced high-quality deliverables that conveyed our core ideas well.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='container-fluid' style="background-color: black;   padding-top: 20px; color: grey;">
+        <div class='row'>
+            <div class='col'></div>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                                <img onclick='showMail()' id='mailButton' class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/gmail.png'>
+                            <a href="https://www.facebook.com/brady.baldwin.50" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/facebook.png'>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brady-baldwin/" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/LinkedIn.png'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class='row'>
+            <div>Created by Brady Baldwin, 2020</div>
+        </div>
+    </div>
+  </body>
+</html>
