@@ -120,6 +120,249 @@
     object-fit: contain;
 }
 
+/* Links */
+.PPLinks{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 20px 20px 20px;
+    border: 4px black;
+    border-radius: 15px;
+    border-color: #4A9FBA;
+    border-width: 8px;
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+
+#Link1Sub{
+    font-size: 26px;
+    font-weight: 100;
+    border-color: white;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+}
+
+#Link2Sub{
+    font-size: 26px;
+    font-weight: 100;
+    border-color: white;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+}
+
+/*Our Client*/
+#PPCLientHead{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+#PPCLientDesc{
+    font-size: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA ;
+}
+
+#clientImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* Functional Prototype section styles */
+#PPModelingImgBorder {
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA ;
+    border-width: 4px;
+}
+
+.modelingImgPP{
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.protoCapPP {
+    font-size: 20px;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+/* pain points accordion stlyes */
+#painPointsImg{
+    margin-bottom: 40px;
+}
+
+#decisionsSeg1{
+    margin-bottom: 20px; 
+}
+
+#decisionsSeg2{
+    margin-bottom: 20px; 
+}
+
+#decisionsSeg3{
+    margin-bottom: 20px; 
+}
+
+#decisionsSeg4{
+    margin-bottom: 20px; 
+}
+
+#decisionsAccordion{
+    padding-top: 20px;
+}
+
+#decisions1{
+    background-color: #90cec5;
+    border-radius: 15px;
+}
+
+#decisions2{
+    background-color: #90cec5;
+    border-radius: 15px;
+}
+
+#decisions3{
+    background-color: #90cec5;
+    border-radius: 15px;
+}
+
+/* Areas of Focus accordion stlyes */
+#Focusdecisions1{
+    background: url('Images_copy/onboarding_dd_img.jpg');
+    background-size: cover;
+    background-position-y: 60%;
+    border-radius: 15px;
+    height: 250px;
+}
+
+#PPTeamWhiteboardImage{
+    margin-bottom: 65px;
+}
+
+#FocusAccordionHead1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: #4A9FBA;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+
+#Focusdecisions2{
+    background: url('Images_copy/feedback_dd_img.jpg');
+    background-size: cover;
+    background-position-y: 40%;
+    border-radius: 15px;
+    height: 250px;
+}
+
+#FocusAccordionHead2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: #4A9FBA;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+
+#Focusdecisions3{
+    background: url('Images_copy/PP_qualtrics_snip.JPG');
+    background-size: cover;
+    background-position-y: 5%;
+    border-radius: 15px;
+    height: 250px;
+}
+
+#FocusAccordionHead3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: #4A9FBA;
+    border: black;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+
+#Focusdecisions4{
+    background: url('Images_copy/PP_DataCenter_Snip.png');
+    background-size: cover;
+    background-position-y: 60%;
+    border-radius: 15px;
+    height: 250px;
+}
+
+#FocusAccordionHead4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: #4A9FBA;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+
+#Focusdecisions5{
+    background-color: #90cec5;
+    border-radius: 15px;
+}
+
+/* Manual carousel */
+#PPcarouselStyle1{
+    text-align: center;
+}
+#PPcarouselStyle2{
+    text-align: center;
+}
+#PPcarouselStyle3{
+    text-align: center;
+}
+#PPcarouselStyle4{
+    text-align: center;
+}
+
+/* Prototypes carousel */
+#PPProtocarouselStyle1{
+    text-align: center;
+}
+#PPProtocarouselStyle2{
+    text-align: center;
+}
+#PPProtocarouselStyle3{
+    text-align: center;
+}
+#PPProtocarouselStyle4{
+    text-align: center;
+}
+#PPProtocarouselStyle5{
+    text-align: center;
+}
+#PPProtocarouselStyle6{
+    text-align: center;
+}
+
 /* footer buffer */
 #PPProjGoalsAnim{
     margin-bottom: 100px;
