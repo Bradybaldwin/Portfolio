@@ -1,0 +1,208 @@
+/* nav stlying */
+#topNavOH{
+    background-color: #3DC2AE;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#OHNavMain{
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* 
+*****re-used styles throughout every container*****
+ Subhead=blue headings
+ headings=black section headings
+ sub border=blue style lines with subheadings
+ sub desc=sub section text
+ brainstorm img = all images in subheading containers (keeps them bound within)
+ sum list stlye = style for all accordion lists
+ sum list text = stlye for text in accordion list
+ */
+
+.OHSubHead{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.OHSubHeadFlip{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: right;
+}
+
+.OHHeadings{
+    font-size: 40px; 
+    padding-top: 100px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white white black white;
+}
+
+.OHSubBorder{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA #4A9FBA white white;
+}
+
+.OHSubBorderFlip{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA;
+}
+
+.OHSubDesc{
+    font-size: 20px;
+}
+
+.brainstormImgOH{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+.OHSpatialImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.OHSumListStyle {
+    background-color: #B2C4CA;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.OHSumListNum {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3DC2AE;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    padding-top: 18px
+}
+
+.OHSumListText {
+    font-size: 30px;
+    padding-top: 18px
+}
+
+/* Header */
+#OHHeadBG{
+    background: linear-gradient(#4A9FBA 70%, white);
+}
+
+#OHTitle{
+    color: white;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+#OHSum{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+#OHGreybox1{
+    object-fit: contain;
+}
+
+/* blank div border */
+#OHSubBorderBlank{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA #4A9FBA white white;
+}
+
+/* creating prototypes section styling */
+#OHspatialVid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    height: 70%;
+    width: 70%;
+}
+
+#fbLoopImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#OHCollab{
+    color: #4A9FBA;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+#OHCollabDesc{
+    font-size: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA ;
+}
+
+#OHCollabImg{
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Testing section styles */
+#OHModelingImgBorder {
+    border-style: solid;
+    border-color: #4A9FBA white white #4A9FBA ;
+    border-width: 4px;
+}
+
+.modelingImgOH{
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.modelingCap {
+    font-size: 20px;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+
+/* Testing Carousel styles */
+#OHLabCarousel1{
+    text-align: center;
+}
+
+#OHLabCarousel2{
+    text-align: center;
+}
+#OHLabCarousel3{
+    text-align: center;
+}

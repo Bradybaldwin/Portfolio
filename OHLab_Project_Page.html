@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='Assets/CSS_Files/styling.css'>
+    <link rel='stylesheet' href='Assets/CSS_Files/OHLab_Styling.css'>
+    <title>Brady Baldwin</title>
+  </head>
+  <body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="Assets/JS_Files/main.js"></script>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='OHNavMain'>
+        <div class="container-fluid" id='topNavOH'> 
+          <a class="navbar-brand" href="#">Brady Baldwin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projects_page.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Assets/Images/Brady_Baldwin_Resume_8_26_2021.pdf" target="_blank">Resume</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- page progress bar -->
+    <div class='progBarBG'>
+        <div class='progBar' id='thisBar'></div>
+    </div>
+
+    <!-- page title and blurb -->
+    <div class='container-fluid' id='OHHeadBG'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class='container' id='OHHeadsub'>
+                        <div class="row">
+                            <div class="col">
+                                <h4 id='OHTitle'>OH!Lab Project: Collaborative Spaces in VR</h4>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col">
+                                <p id='OHSum' >Role: Lead Prototyper / Time Frame: 5 Months <br>
+                                    OH!Lab, Carnegie Mellon University 
+                                </social-media></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class='container'>
+                        <div class="row">
+                            <div class="col" style="margin-top: 40px;">
+                                <img id='OHGreybox1' src="Assets/Images/OH_Oculus.png" class='img-fluid' alt='An Oculus VR headset'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overview header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='OHHeadings' id='OHOvrAnim'>Overview</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project brief container -->
+    <div class='container'  id='OHProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='OHSubHead'>Project Brief</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='OHSubBorderBlank'>
+                <div>
+                    <img class='brainstormImgOH' src="Assets/Images/OH_LabLogo.png" alt='The OH Lab logo'>
+                </div>
+            </div>
+            <div class='col-md-7'>
+                <div class='OHSubDesc'>
+                    Does Virtual Reality have a lasting place in the executive conference room? This was one of the core questions behind the research that I participated in at Carnegie Mellon University with the OH! Lab in Spring of 2021. I served as the prototyping team lead in a multi-term project that sought to determine the benefits of VR in human collaboration, and specifically what benefits could be used in business collaboration. As the prototyping lead it was my job to oversee the creation of 3D assets, which I then imported into the Spatial conferencing app for Oculus Quest. These 3D environments were used in testing with Carnegie Mellon students to determine their efficacy in enhancing collaboration and communication.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Creating prototypes container -->
+    <div class='container' id='OHcollabContAnim'>
+        <div class='row'>
+            <div class='col-md-8' id='OHCollab'>
+                Creating Prototypes
+            </div>
+            <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='OHCollabDesc'>
+                My main role as lead prototyper was to oversee the asset creation pipeline and ensure that our strict weekly testing deadlines would be met on schedule. I had a team of four other students who would create 3D scenes in Unity based on a series of prompts provided by the primary investigators (for instance, creating a pirate ship scene so that someone giving a presentation could stand behind the wheel as if they were the captain). 
+                <br><br>
+                I would take the assets my team made and import them into Maya, often UV mapping them with additional textures or re-sizing them to better fit in the Spatial ecosystem. I then uploaded the prototypes to Spatial rooms and set them up with props so that they would be prepared for testing with live participants. 
+            </div>
+            <div class='col-md-7'>
+                <iframe id='OHspatialVid' src="https://drive.google.com/file/d/13B_eAaj7xp0j2bAubJAWyDHREYmJA1Ju/preview" width="640" height="480" allow="autoplay"></iframe>
+                <div style="text-align: center;">One of the Prototpyes created in Autodesk Maya and <br> imported into Spatial VR</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Learning Spatial container -->
+    <div class='container'  id='OHProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='OHSubHead'>Learning Spatial</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='OHSubBorderBlank'>
+                <div>
+                    <img class='OHSpatialImg' src="Assets/Images/OH_spatialLogo.jpg" alt='The Spatial logo'>
+                </div>
+            </div>
+            <div class='col-md-7'>
+                <div class='OHSubDesc'>
+                    Learning to adapt Spatial, a remote conferencing app designed for use in VR, as a research tool provided a lot of unique challenges. I worked with a Primary Investigator and spatial team members themselves to adapt our models so that they could work within Spatial. Often updates would roll out during our testing phases that necessitated a re-construction of rooms from scratch. As many models would import into spatial half-broken or missing textures, many hours of trial and error were needed to make the research succeed.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testing and Iteration container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-8'>
+                <div class='OHSubHead'>Testing and Iterating</div>
+            </div>
+                <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='container' id='OHModelingImgBorder'>
+                    <div class='row' style="margin-bottom: 40px;">
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/OH_spatialsnip1.JPG' alt='User-posted image of a puppy' class='modelingImgOH'>
+
+                        </div>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/OH_spatialsnip2.JPG' alt='user-posted selfie' class='modelingImgOH'>
+                            <figcaption class='modelingCap'>
+                                Multi-media from users in Spatial testing
+                            </figcaption>
+                        </div>
+                        <div class='col-md-4'>
+                            <img src='Assets/Images/OH_spatialsnip3.JPG' alt='User-posted image from browser' class='modelingImgOH'>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-bottom: 30px'>
+                            <div class='OHSubDesc'>
+                                Aside from leading the prototyping team I also assisted with testing the spatial rooms on live participants. Our research team worked alongside an undergraduate communications class who gave speeches and conducted exercises in our VR environments. They were later polled for feedback and on occasion interviewed. From their responses we learned that VR held a great deal of potential for furthering collaboration. One scene in particular, modeled after a museum, allowed participants to decorate their spaces with multimedia (images, videos, 3D paintings, etc) and sparked engaging conversation among all participants, who reflected a desire to continue meeting in the virtual space.
+                                <br><br>
+                                The research is currently ongoing at CMU, and the team has pivoted to testing on pairs of participants in more intensive, hour-long sessions. My final weeks in the lab were spent transitioning the next prototyping lead and teaching them the asset pipeline from Unity/Maya to Spatial.
+                            </div>
+                        </div>
+                    </div>
+                    <div class=row>
+                        <div class=col>
+                            <!-- Bootstrap Carousel of Spatial screenshots -->
+                            <div id="OHUnityCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" id='OHLabCarousel1'>
+                                    <img src="Assets/Images/OH_spatialRoom1.JPG.png" alt="Spatial experiment room on a pirate ship">
+                                  </div>
+                                  <div class="carousel-item" id='OHLabCarousel2'>
+                                    <img src="Assets/Images/OH_spatialRoom2.JPG.png"  alt="Spatial experiment room on a beach">
+                                  </div>
+                                  <div class="carousel-item" id='OHLabCarousel3'>
+                                    <img src="Assets/Images/OH_spatialRoom3.JPG.png" alt="Spatial experiment room in a mountian camp">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#OHUnityCarousel" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#OHUnityCarousel" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='OHSubDesc' style='text-align: center; padding-top: 20px;'>
+                                A selection of the Spatial rooms we employed in user testing
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Takeaways header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='OHHeadings' style="margin-top: 100px;">Takeaways</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Takeaways body text -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col' style="margin-top: 40px;">
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='OHSubDesc' style=' margin-bottom: 100px;'>
+                    While I enjoyed the research aspect of this project, my biggest takeaway was in experience as the leader of a team. Managing each individual’s assignments and making sure the team was on track for deadlines was a challenge in the fast-paced environment of the lab. Additionally, I had my own prototyping responsibilities. My team and I wound up working very well together and we always managed to bring more prototypes to the table than anticipated. Keeping such an efficient process running smoothly was a fun challenge and it taught me a lot about the delicate balance of team management. 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='container-fluid' style="background-color: black;   padding-top: 20px; color: grey;">
+        <div class='row'>
+            <div class='col'></div>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                                <img onclick='showMail()' id='mailButton' class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/gmail.png'>
+                            <a href="https://www.facebook.com/brady.baldwin.50" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/facebook.png'>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brady-baldwin/" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/LinkedIn.png'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class='row'>
+            <div>Created by Brady Baldwin, 2021</div>
+        </div>
+    </div>
+  </body>
+</html>

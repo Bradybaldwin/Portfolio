@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='Assets/CSS_Files/styling.css'>
+    <link rel='stylesheet' href='Assets/CSS_Files/Lutron_Styling.css'>
+    <title>Brady Baldwin</title>
+  </head>
+  <body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="Assets/JS_Files/main.js"></script>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='LUNavMain'>
+        <div class="container-fluid" id='topNavLU'> 
+          <a class="navbar-brand" href="#">Brady Baldwin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projects_page.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Assets/Images/Brady_Baldwin_Resume_8_26_2021.pdf" target="_blank">Resume</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- page progress bar -->
+    <div class='progBarBG'>
+        <div class='progBar' id='thisBar'></div>
+    </div>
+
+    <!-- page title and blurb -->
+    <div class='container-fluid' id='LUHeadBG'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class='container' id='LUHeadsub'>
+                        <div class="row">
+                            <div class="col">
+                                <h4 id='LUTitle'>Lutron: Designing a New Customer Experience</h4>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col">
+                                <p id='LUSum' >Role: Service Designer / Time Frame: 2 Months <br>
+                                    Group Members: Myself, Thuy-Vy Nguyen, Sewon Park, Erick Valencia Torres <br>
+                                    Carnegie Mellon University 
+                                </social-media></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class='container'>
+                        <div class="row">
+                            <div class="col" style="margin-top: 40px;">
+                                <img id='LUGreybox1' src="Assets/Images/LU_Lightbulb.png" class='img-fluid' alt='Final screen from prototype'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overview header -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-5'>
+                <div class='LUHeadings' id='LUOvrAnim'>Overview</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Defining problem container -->
+    <div class='container'  id='LUProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='LUSubHead'>Defining the Problem</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='LUSubBorderBlank'>
+                <div><img id='lutronLogo' src="Assets/Images/LU_LutronLogo.png" class='img-fluid' alt='Final screen from prototype'></div>
+            </div>
+            <div class='col-md-7'>
+                <div class='LUSubDesc'>
+                    In Spring of 2021 I worked with a team of Carnegie Mellon graduate students and a group of Lutron employees to propose a new service for the lighting company as a part of the Service Design course. This project spanned several months as our team explored the problem space and narrowed in on a solution around educating potential customers on ways that home automation could improve their lives.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Understanding the user container -->
+    <div class='container' id='LUcollabContAnim'>
+        <div class='row'>
+            <div class='col-md-8' id='LUCollab'>
+                Understanding the User
+            </div>
+            <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='LUCollabDesc'>
+                To get off the ground and find a need worth addressing for Lutron, our team conducted a series of interviews with a variety of users. We scripted loose protocols based around several main themes (automation, Lutron customer service, lighting needs in their home), and adapted them for each type of user we interviewed. Among the users we spoke to were Lutron certified installers, Lutron Caseta customers, realtors with smart home experience, and retail workers. While many of these interviews were conducted remotely over the phone and Zoom, I managed to conduct some street research (or guerilla research) to better understand customers’ thoughts during the point of sale in the retail environment.
+            </div>
+            <div class='col-md-7'>
+                <img id='lutronInstaller' src='Assets/Images/LU_Installer.jpg' alt='Theater Masks'>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guerilla research container -->
+    <div class='container'  id='LUProjGoalsAnim'>
+        <div class='row'>
+            <div class='col-md-5'>
+                <div class='LUSubHead'>Guerilla Research</div>
+            </div>
+            <div class='col-md-7'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-5' id='LUSubBorderBlank'>
+                <div class='col-md-12'>
+                    <img src='Assets/Images/LU_Lowes.jpg' alt='Lofi prototype page 3' class='LUGuerillaResearch'>
+                    <figcaption class='modelingCap' style="font-size: 18px;">
+                        During our in-store research we conducted competetive analyses against other offered lighting solutions
+                    </figcaption>
+                </div>
+            </div>
+            <div class='col-md-7'>
+                <div class='LUSubDesc'>
+                    Myself and another team member surveyed employees and customers across several retail locations with Lutron displays, including Lowe’s and Home Depot. It was a fun challenge to meet people in their environment and pull on context to improvise questions that might be relevant. Speaking with on Home Depot employee, we found that many customers were pointed toward the less confusion ‘dumb dimmers’, which are not connected to the Lutron Caseta system. This bias against smart home devices as being too ‘out of reach’ for the average customer was a sentiment reflected across much of our research, and prompted us to develop a new service that addressed this issue.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rapid Design container -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-8'>
+                <div class='LUSubHead'>Rapid Design</div>
+            </div>
+                <div class='col-md-4'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <div class='container' id='LUModelingImgBorder'>
+                    <div class='row'>
+                        <div class='col-md-12'>
+                            <img src='Assets/Images/LU_CustomerJourney.png' alt='Lofi prototype page 3' class='modelingImgLU'>
+                            <figcaption class='modelingCap'>
+                                Customer Journey Blueprint with a focus on the showroom
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col' style='padding-top: 40px; padding-bottom: 40px'>
+                            <div class='LUSubDesc'>
+                                Our team mapped several possible service blueprints to address the customers’ lack of familiarity with the benefits of Smart Home devices. One thing we had found was that once customers brought Smart Home into their lives, they were delighted with the simplicity and benefits that followed. The challenge was to create a service which made that transition more palatable. 
+                                <br><br>
+                                After several iterations we landed on the idea of promoting Smart Home through a joint collaboration with home furniture suppliers such as IKEA. As many people are going to these places during a home renovation period, we felt it would be most appropriate to introduce the possibility of Smart Home at this juncture. When Lutron approved of the idea in an initial pitch meeting, we moved forward with finalizing the concept for a formal pitch at the end of the semester.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pitch container -->
+    <div class="container">
+        <div class='row'>
+            <div class='col' style='padding-bottom: 20px'>
+                <div class='LUSubHead'>
+                    Creating a Service Pitch
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col' style='padding-bottom: 30px' id='LUSubBorderBlank'>
+                <div class='LUSubDesc'>
+                    One element of our service pitch was a short video detailing how our service would work in the real world. I filmed the video on-site at an IKEA and used Premiere Pro in editing. Our goal was to sell the service from the customer’s perspective, showing how our service addresses the common concerns people have over Smart Home integration from a human-centric approach. 
+                    <br><br>
+                    We debuted our video and pitched our solution to Lutron, who were highly receptive to the idea and appreciated that we focused on finding a practical service solution to a real problem. It was affirming that in their own research they too had found many customers who were skeptical in taking the leap to Smart Home, but grateful one they had done so. Here is the video in full:
+                </div>
+            </div>
+        </div>
+        <div class=row>
+            <div class=col>
+                <iframe id='LUPitchVid' src="https://drive.google.com/file/d/1VkuZ3VEz1DG81TVayWfPKLzkqhXoZuFu/preview" width="640" height="480" allow="autoplay"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='container-fluid' style="background-color: black;   padding-top: 20px; color: grey;">
+        <div class='row'>
+            <div class='col'></div>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col'>
+                                <img onclick='showMail()' id='mailButton' class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/gmail.png'>
+                            <a href="https://www.facebook.com/brady.baldwin.50" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/facebook.png'>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brady-baldwin/" target="_blank">
+                                <img class='rounded float-right' style="width: 80px; padding-right: 20px; position: relative; float: right;" src='Assets/Images/LinkedIn.png'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class='row'>
+            <div>Created by Brady Baldwin, 2021</div>
+        </div>
+    </div>
+  </body>
+</html>

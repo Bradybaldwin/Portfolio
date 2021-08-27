@@ -24,7 +24,7 @@
 
 /* featured project 1 styles */
 #projImg1 {
-    background-image: url(Images_copy/terracotta.JPG);
+    background-image: url(Images_copy/OH_Ship.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@
 
 /* bottom project styles */
 #bottom1{
-    background-image: url(Images_copy/sub_screens_ovrview.png);
+    background-image: url(Images_copy/LU_poster.png);
     filter: saturate(50%);
     background-position: center;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@
 }
 
 #bottom2{
-    background-image: url(Images_copy/Psych_Lab_Image_1.jpg);
+    background-image: url(Images_copy/terracotta.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

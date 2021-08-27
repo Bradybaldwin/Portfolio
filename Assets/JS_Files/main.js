@@ -120,7 +120,22 @@ document.addEventListener("DOMContentLoaded", function(){
         tlFN.from("#UCOvrAnim", {x: 100, opacity:0, duration: .5});
         tlFN.from("#UCProjGoalsAnim", {opacity:0, duration: .5});
         tlFN.from("#UCcollabContAnim", {opacity:0, duration: .5});
-})
 
+//Non-scroll on load OH!Lab Project Detail Page timeline//
+    var tlFN = gsap.timeline({});
+        tlFN.from("#OHHeadsub", {opacity:0, duration: .5, delay: .3});
+        tlFN.from("#OHGreybox1", {x: 100, opacity:0, duration: 1, delay: .1});
+        tlFN.from("#OHOvrAnim", {x: 100, opacity:0, duration: .5});
+        tlFN.from("#OHProjGoalsAnim", {opacity:0, duration: .5});
+        tlFN.from("#OHcollabContAnim", {opacity:0, duration: .5});
+
+//Non-scroll on load Lutron Project Detail Page timeline//
+    var tlFN = gsap.timeline({});
+        tlFN.from("#LUHeadsub", {opacity:0, duration: .5, delay: .3});
+        tlFN.from("#LUGreybox1", {x: 100, opacity:0, duration: 1, delay: .1});
+        tlFN.from("#LUOvrAnim", {x: 100, opacity:0, duration: .5});
+        tlFN.from("#LUProjGoalsAnim", {opacity:0, duration: .5});
+        tlFN.from("#LUcollabContAnim", {opacity:0, duration: .5});
+})
 
 
